@@ -1,0 +1,40 @@
+title: None gender left fox
+url: "https://nonegenderleftfox.aventine.se"
+baseurl: ""
+
+author: &default_author
+  name: Aurora
+  email: aurora@aventine.se
+  twitter: rawrafox
+  github: rawrasaur
+
+description: >
+  Programming Rust and Ruby, baking cookies, being me.
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: *default_author
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+sass:
+  style: compressed
+
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
