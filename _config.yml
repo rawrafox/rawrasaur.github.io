@@ -8,6 +8,9 @@ author: &default_author
   twitter: rawrafox
   github: rawrasaur
 
+twitter:
+  username: rawrafox
+
 description: >
   Programming Rust and Ruby, baking cookies, being me.
 
